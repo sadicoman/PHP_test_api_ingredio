@@ -1,0 +1,36 @@
+# Fichiers de configuration sensibles
+.env
+
+# Dossiers de dépendances
+/vendor/
+/node_modules/
+
+# Dossiers de cache
+cache/
+logs/
+
+# Dossiers générés par l'éditeur/IDE
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.swp
+*.swo
+
+# Fichiers de système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Fichiers de build et de compilation
+build/
+dist/
+*.log
+
+# Autres fichiers spécifiques à ignorer
+config.php
+# dbUtils.php
+
+# Fichiers de sauvegarde
+*.bak
+*.tmp
+*.temp
